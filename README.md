@@ -43,10 +43,15 @@ Performance Evaluation
 YOLOv5s vs YOLO26n Benchmarking
 ```
 
-.
+## Repository Structure
+
+```text
+YOLO-Vehicle-Detection/
+│
 ├── YOLODataset.ipynb
 ├── data.yaml
 ├── README.md
+│
 └── results/
     ├── yolov5s_baseline/
     │   ├── weights/
