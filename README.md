@@ -43,24 +43,23 @@ Performance Evaluation
 YOLOv5s vs YOLO26n Benchmarking
 ```
 
-Tech Stack
-Python
-PyTorch
-Ultralytics
-YOLOv5
-YOLO26
-OpenCV
-CUDA
-Google Colab
-How to Run
-pip install -U ultralytics
-
-Then open YOLODataset.ipynb in Google Colab, enable a GPU runtime, update the dataset path in data.yaml, and run the notebook.
-
-Repository Structure
+.
 ├── YOLODataset.ipynb
 ├── data.yaml
 ├── README.md
 └── results/
-    ├── yolov5s/
+    ├── yolov5s_baseline/
+    │   ├── weights/
+    │   │   ├── best.pt
+    │   │   └── last.pt
+    │   ├── results.csv
+    │   ├── results.png
+    │   └── confusion_matrix.png
+    │
     └── yolo26n/
+        ├── weights/
+        │   ├── best.pt
+        │   └── last.pt
+        ├── results.csv
+        ├── results.png
+        └── confusion_matrix.png
